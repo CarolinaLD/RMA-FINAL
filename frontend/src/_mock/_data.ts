@@ -141,7 +141,8 @@ export const _timeline = [...Array(5)].map((_, index) => ({
 // ----------------------------------------------------------------------
 
 export const _notifications = [
-  {
+
+/*  {
     id: _id(1),
     title: 'Alerta roja!',
     description: 'el rio se esta desbordando!',
@@ -149,8 +150,8 @@ export const _notifications = [
     type: 'order-placed',
     postedAt: _times(1),
     isUnRead: true,
-  },
-  {
+  }, */
+  /* {
     id: _id(2),
     title: 'Bateria de nodo:',
     description: 'La bateria del nodo 3 se esta agotando!',
@@ -158,7 +159,7 @@ export const _notifications = [
     type: 'order-placed',
     postedAt: _times(2),
     isUnRead: true,
-  },
+  }, */
   /* {
     id: _id(3),
     title: 'You have new message',
@@ -185,5 +186,5 @@ export const _notifications = [
     type: 'order-shipped',
     postedAt: _times(5),
     isUnRead: false,
-  }, */
+  }, */ 
 ];

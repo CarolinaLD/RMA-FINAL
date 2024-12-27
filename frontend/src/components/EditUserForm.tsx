@@ -46,7 +46,7 @@ const EditUserForm: React.FC<EditUserFormProps> = ({ userId, onClose, onUpdate }
           username: user.username, 
           // email: user.email, 
           rol: user.rol || "",
-          //estado: user.estado || false,
+          // estado: user.estado || false,
         });
       } catch (error) {
         console.error("Error al cargar los datos del nodo:", error);
